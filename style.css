@@ -1,0 +1,50 @@
+.container{
+    margin-left:40px;
+}
+.navbar-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-container img{
+    margin: 15px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.list li{
+    margin:5px 10px;
+}
+.grow-list{
+    margin-left: -500px;
+    margin-top: 10px;
+}
+.nav-button{
+    padding: 10px 20px;
+    margin-top:20px;
+    margin-right: 50px;
+    background-color: blue;
+    border-radius: 14px;
+    color:white;
+    border:none;
+}
+.banner-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-text{
+    font-size: 59px;
+    font-style:initial;
+    color:rgb(42, 42, 131);
+}
+span{
+    color:rgb(122, 122, 249);
+}
+
+[src="./assets/Header Illustration.png"]{
+    width:715px;
+}
