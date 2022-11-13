@@ -1,6 +1,7 @@
-/* :root{
-    color-scheme: dark;
-} */
+*{
+    margin: 0px;
+    padding:0px;
+}
 
 .container{
     margin-left:40px;
@@ -10,7 +11,18 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
+.data{
+    margin-top: 72px;
+    font-family: 'Oswald', sans-serif;
+}
+[src="./assets/Logo.png"]:hover{
+    cursor: pointer;
+}
+.description{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
 .navbar-container img{
     margin: 15px;
 }
@@ -20,11 +32,17 @@
     list-style: none;
 }
 .list li{
-    margin:5px 10px;
+    margin:5px 15px;
+    font-family: 'Oswald', sans-serif;
+    font:bold;
+}
+.list li:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 3px gray;
 }
 .grow-list{
-    margin-left: -500px;
-    margin-top: 10px;
+    margin-left: -357px;
+    margin-top: 21px;
 }
 .nav-button{
     padding: 10px 20px;
@@ -34,6 +52,10 @@
     border-radius: 14px;
     color:white;
     border:none;
+}
+.nav-button:hover{
+    color: black;
+    cursor: pointer;
 }
 .banner-container{
     display: flex;
